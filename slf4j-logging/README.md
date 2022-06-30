@@ -8,7 +8,7 @@ This code is written for my reference of configuring log4j2 but i want to make i
 
 ### To understand or to do it your self, here i am starting from basics if someone who has no idea on spring boot has to start then they could follow this or you could skip this part
 * First to start with spring boot application you could visit [Spring Intializr](https://start.spring.io/) page.
-![start.spring.io](start.spring.io.png)
+![start.spring.io](assets/images/start.spring.io.png)
 
 * In project select maven project, and in language select java, then in spring boot version you could select any version of spring i choose 2.7.1 and in project meta data give the group name this would be the intial project pakage name and it should be in the format "com.somename" and packaging you could go with jar or war depeding on your project requirement and also select the right version of java.
 * That's it click on generate it will create a project for you download it and import it in your IDE.
