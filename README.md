@@ -1,12 +1,12 @@
 # Swings
 Practice
 
-##Project is created using Spring boot
+### Project is created using Spring boot
 This code is written for my reference of configuring log4j2 but i want to make it a open source as this code could be used by others who are struggling to use log4j2 in there spring boot application. Here i am using log4j2.xml to configure the logging and in the pom.xml we have disabled the default application log provided by the spring boot framework.
 
-##The application already has all the components you could clone it and use it on your local machine but the below steps are to understand how its built.
+### The application already has all the components need to run the application, you could just clone it and start using it in your project, the below steps are to understand how its written.
 
-##To understand or to do it your self, here i am starting from basics if someone who has no idea on spring boot has to start then they could follow this or you could skip this part
+### To understand or to do it your self, here i am starting from basics if someone who has no idea on spring boot has to start then they could follow this or you could skip this part
 * First to start with spring boot application you could visit [Spring Intializr](https://start.spring.io/) page.
 ![start.spring.io](start.spring.io.png)
 
