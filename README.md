@@ -66,14 +66,13 @@ This code is written for my reference of configuring log4j2 but i want to make i
 <Policy>
   <SizeBasedTriggeringPolicy max="20MB" />
  </Policy>
- <DefaultRolloverStrategy max="5" /.
+ <DefaultRolloverStrategy max="5" />
  </RollingFile>
- 
+ ```
+	
  * So this is the last part here we just need to use the configuration that we did go to src/main/java/packagename/starter_file.java which is the only class that you have in your project 
  
- ```
-package package_name;
-
+```
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -83,7 +82,6 @@ import org.apache.logging.log4j.Logger;
 
 @SpringBootApplication
 public class LoggingApplication implements ApplicationRunner {
-
     private static final Logger logger = LogManager.getLogger(LoggingApplication.class);
     
 	public static void main(String[] args) {
@@ -98,10 +96,9 @@ public class LoggingApplication implements ApplicationRunner {
         logger.error("Oops! We have an Error. OK");
         logger.fatal("Damn! Fatal error. Please fix me.");
 	}
-
 }
-
 ```
+	
 * In that application just implement the application runnable interface and that will ask for a run method to be overrided so just add that and then add then initialize the logger with the current class name.class when the java code is compiled it creates a class file so it works on that class file and you will start getting the logs as output except the debug, because it's set to false in the xml file.
 * To run the application if your using eclipse then rightclick on this java file and select Run As -> Java Application.
 
