@@ -1,5 +1,5 @@
 # Swings
-Practice
+Logger Framework
 
 ### Project is created using Spring boot
 This code is written for my reference of configuring log4j2 but i want to make it a open source as this code could be used by others who are struggling to use log4j2 in there spring boot application. Here i am using log4j2.xml to configure the logging and in the pom.xml we have disabled the default application log provided by the spring boot framework.
